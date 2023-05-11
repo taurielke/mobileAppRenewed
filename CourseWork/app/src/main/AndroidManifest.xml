@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.coursework">
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CourseWork"
+        tools:targetApi="31">
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DiscountActivity"
+            android:exported="false"
+            android:label="@string/title_activity_discount"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".QuestionAskedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_question_asked"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AuthorizationAdminActivity"
+            android:exported="false"
+            android:label="@string/title_activity_authorization_admin"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PrintsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_prints"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PrintActivity"
+            android:exported="false"
+            android:label="@string/title_activity_print"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CoursesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_courses"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CourseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_course"
+            android:theme="@style/Theme.CourseWork.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BrushesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrushActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReportUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutorizationUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportsMainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
